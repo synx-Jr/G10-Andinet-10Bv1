@@ -7,3 +7,11 @@ if (time < 12) {
 else if(time>12 && time>=10){
   console.log("Good day");
 }
+let x=30 //where x is seconds
+if(x<30) {
+console.log("less than half a minute")
+}else if(x=30) {
+console.log("half a minute") 
+}else if(x>30 & x<=60) {
+console.log("almost a minute")
+}
